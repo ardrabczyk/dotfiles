@@ -1,0 +1,12 @@
+xterm*metaSendsEscape: true
+xterm*background:      black
+xterm*foreground:      white
+xterm*font:            -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+
+UXTerm*VT100.Translations: #override \n\
+     Meta <Key>/:dabbrev-expand() \n\
+
+Xft.antialias:  1
+Xft.dpi:        96
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
