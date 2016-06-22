@@ -128,7 +128,7 @@ Control Mod4 F12 :TakeToWorkspace 12
 Mod4 a      :WorkspaceMenu
 Mod4 b      :exec wmctrl -a firefox || firefox
 Mod4 c      :Maximize
-Mod4 d      :exec wmctrl -a "Image Viewer"
+Mod4 d      :exec wmctrl -x -a "libreoffice"
 Mod4 e      :exec wmctrl -a emacs@ || emacs
 Mod4 h      :SendToNextHead
 Mod4 l      :exec xscreensaver -no-capture-stderr & xscreensaver-command -lock
