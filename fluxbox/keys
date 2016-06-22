@@ -133,6 +133,8 @@ Mod4 e      :exec wmctrl -a emacs@ || emacs
 Mod4 h      :SendToNextHead
 Mod4 l      :exec xscreensaver -no-capture-stderr & xscreensaver-command -lock
 Mod4 m      :ToggleCmd {ShowDesktop} {DeIconify all originquiet}
+# Mod4 n      :exec echo "pause" > /tmp/mplayer.fifo
+Mod4 n      :exec mocp --toggle-pause
 Mod4 o      :exec wmctrl -a '.pdf'
 Mod4 p      :exec evince /home/ja/c/c99.pdf
 Mod4 r      :Reconfigure
