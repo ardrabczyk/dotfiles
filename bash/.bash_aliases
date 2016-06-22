@@ -22,3 +22,4 @@ alias newest='find . -type f -printf '\''%T@ %p\n'\'' | sort -n | tail -1 | cut 
 alias sp='slackpkg'
 alias texbib='pdflatex praca.tex && bibtex praca && pdflatex praca.tex && pdflatex praca.tex'
 alias ubuntu='vboxmanage startvm ubuntu --type headless'
+alias sudo='sudo '
