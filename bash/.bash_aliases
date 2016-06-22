@@ -24,3 +24,4 @@ alias texbib='pdflatex praca.tex && bibtex praca && pdflatex praca.tex && pdflat
 alias ubuntu='vboxmanage startvm ubuntu --type headless'
 alias sudo='sudo '
 alias fdd='ll /dev/disk/by-id'
+alias bro='/home/ja/.gem/ruby/1.9.1/bin/bro'
