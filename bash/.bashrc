@@ -148,7 +148,7 @@ function man()
 ############################################################
 # variable definitions
 ############################################################
-export EMAIL="arkadiusz@drabczyk.org"
+export EMAIL="adrabczyk@cyfrowypolsat.pl"
 export SURFRAW_google_results=100
 export PERL_LOCAL_LIB_ROOT="/home/ja/perl5";
 export PERL_MB_OPT="--install_base /home/ja/perl5";
