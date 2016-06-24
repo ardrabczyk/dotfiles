@@ -140,7 +140,7 @@ Mod4 p      :exec evince /home/ja/c/c99.pdf
 Mod4 r      :Reconfigure
 Mod4 t      :SendToNextHead
 Mod4 v      :exec wmctrl -a 'VirtualBox Manager' || virtualbox
-Mod4 w      :exec wmctrl -a rdesktop || rdesktop -ua.drabczyk -dDIGITAL -D -g1680x1050 -a16 -rsound:remote -rclipboard:PRIMARYCLIPBOARD -rdisk:home="$HOME" -kpl -5 -B -xlan -K -P amdn199
+Mod4 w 	    :exec wmctrl -a rdesktop || rdesktop -uuser -dDIGITAL -D -g1680x1050 -a16 -rsound:remote -rclipboard:PRIMARYCLIPBOARD -rdisk:home="$HOME" -kpl -5 -B -xlan -K -P 10.5.113.44 -p12345678
 Mod4 x      :exec wmctrl -x -a UXTerm || uxterm -e "screen -e^Jj"
 
 Mod4 Escape       :RootMenu
